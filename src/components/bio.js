@@ -54,11 +54,10 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who lives and works in San
-        Francisco building useful things.
+        Ditulis oleh <strong>{author}</strong> yang masih suka belajar kalo lagi malem. Kalau kepo boleh iseng cek
         {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
+        <a href={`https://www.linkedin.com/in/${social.linkedin}`}>
+          Linkedinnya.
         </a>
       </p>
     </div>
