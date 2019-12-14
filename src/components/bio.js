@@ -54,10 +54,10 @@ const Bio = () => {
         }}
       />
       <p>
-        Ditulis oleh <strong>{author}</strong> yang masih suka belajar kalo lagi malem. Kalau kepo boleh iseng cek
+      <strong>{author}</strong> is a software engineer that has experience in building application using javascript stack on both end. You can check my linkedin
         {` `}
         <a href={`https://www.linkedin.com/in/${social.linkedin}`}>
-          Linkedinnya.
+          here.
         </a>
       </p>
     </div>
