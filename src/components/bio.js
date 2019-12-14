@@ -54,11 +54,10 @@ const Bio = () => {
         }}
       />
       <p>
-      <strong>{author}</strong> is a software engineer that has experience in building application using javascript stack on both end. You can check my linkedin
-        {` `}
         <a href={`https://www.linkedin.com/in/${social.linkedin}`}>
-          here.
+          <strong>{author}</strong>
         </a>
+        is a software engineer, a human that know little about life, so he write here in hope that he can learn something.
       </p>
     </div>
   )
