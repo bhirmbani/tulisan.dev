@@ -45,3 +45,18 @@ Ikuti tulisan ini dan bagikan dulu kalau sampai sini sudah dirasa ada gunanya.
 
 
 Kalau tidak, yuk kita lanjut.
+
+```jsx{6}
+function Counter() {
+  const [count, setCount] = useState(0);
+
+  return (
+    <div>
+      <p>You clicked {count} times</p>
+      <button onClick={() => setCount(count + 1)}>
+        Click me
+      </button>
+    </div>
+  );
+}
+```
