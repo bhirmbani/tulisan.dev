@@ -36,7 +36,7 @@ class Layout extends React.Component {
           style={{
             fontFamily: `Montserrat, sans-serif`,
             marginTop: 0,
-            color: '#007acc'
+            color: "#007acc",
           }}
         >
           <Link
@@ -63,11 +63,22 @@ class Layout extends React.Component {
       >
         <header>{header}</header>
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+        <div style={{ textAlign: "center" }}>
+          <footer>
+            <a href="https://stackoverflow.com/users/5767110/bhirawa-mbani">
+              stackoverflow
+            </a>{" "}
+            • <a href="https://github.com/bhirmbani">github</a> •{" "}
+            <a href="https://twitter.com/bhirmbani">twitter</a> •{" "}
+          </footer>
+          <footer style={{ fontSize: "0.65em", marginTop: '0.30em' }}>
+            © {new Date().getFullYear()}, Built with
+            {` `}
+            <a href="https://www.gatsbyjs.org">Gatsby</a>. Hosted on{" "}
+            <a href="https://www.netlify.com/">Netlify</a>. Content management
+            with <a href="https://www.netlifycms.org/">Netlify cms</a>.
+          </footer>
+        </div>
       </div>
     )
   }

@@ -57,7 +57,7 @@ const Bio = () => {
         <a href={`https://www.linkedin.com/in/${social.linkedin}`}>
           <strong>{author}</strong>
         </a>{" "}
-        is a software engineer, a human that knows little about life, so he
+        is a software engineer, a man that knows little about life, so he
         write here in hope that he can learn something.
       </p>
     </div>

@@ -142,17 +142,17 @@ pre[class*='language-'] ::selection {
 }
 
 .token.attr-name {
-  color: rgb(173, 219, 103);
+  color: #50fa7b;
   font-style: italic;
 }
 
 .token.comment {
-  color: rgb(128, 147, 147);
+  color: #6272a4;
 }
 
 .token.string,
 .token.url {
-  color: rgb(173, 219, 103);
+  color: #f1fa8c;
 }
 
 .token.variable {
@@ -160,18 +160,18 @@ pre[class*='language-'] ::selection {
 }
 
 .token.number {
-  color: rgb(247, 140, 108);
+  color: #bd93f9;
 }
 
 .token.builtin,
 .token.char,
 .token.constant,
 .token.function {
-  color: rgb(130, 170, 255);
+  color: #50fa7b;
 }
 
 .token.punctuation {
-  color: rgb(199, 146, 234);
+  color: #f8f8f2;
 }
 
 .token.selector,
@@ -181,17 +181,18 @@ pre[class*='language-'] ::selection {
 }
 
 .token.class-name {
-  color: rgb(255, 203, 139);
+  color: #8be9fd;
+  font-style: italic;
 }
 
 .token.tag,
 .token.operator,
 .token.keyword {
-  color: #ffa7c4;
+  color: #ff79c6;
 }
 
 .token.boolean {
-  color: rgb(255, 88, 116);
+  color: #bd93f9;
 }
 
 .token.property {
@@ -208,13 +209,13 @@ pre[data-line] {
 }
 
 .gatsby-highlight-code-line {
-  background-color: hsla(207, 95%, 15%, 1);
+  background-color: #44475a;
   display: block;
   margin-right: -1.3125rem;
   margin-left: -1.3125rem;
   padding-right: 1em;
   padding-left: 1.25em;
-  border-left: 0.25em solid #ffa7c4;
+  border-left: 0.25em solid #007acc;
 }
 
 .gatsby-highlight {
@@ -222,7 +223,7 @@ pre[data-line] {
   margin-left: -1.3125rem;
   margin-right: -1.3125rem;
   border-radius: 10px;
-  background: #011627;
+  background: #282a36;
   -webkit-overflow-scrolling: touch;
   overflow: auto;
 }

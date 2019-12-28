@@ -46,14 +46,23 @@ Ikuti tulisan ini dan bagikan dulu kalau sampai sini sudah dirasa ada gunanya.
 
 Kalau tidak, yuk kita lanjut.
 
-```jsx{6}
+```jsx{2-5, 9}
+const instance = new Instance()
+const me = 'test'
+const me2 = true
+const obj = {
+  me: 12,
+  gw: ['212']
+}
+
+$.ajax('me')
 function Counter() {
   const [count, setCount] = useState(0);
-
+// this is a comment
   return (
     <div>
       <p>You clicked {count} times</p>
-      <button onClick={() => setCount(count + 1)}>
+      <button test={{ people: 'person' }} onClick={() => setCount(count + 1)}>
         Click me
       </button>
     </div>
